@@ -46,11 +46,11 @@ include '../documentation-main/documentation_header.php';
     </p>
 
 <dl>
-    <dt>ag-theme-balham</dt>
+    <dt>ag-theme-finance</dt>
     <dd>The default flat light theme which is used in most of the examples in the documentation.</dd>
 
-    <dt>ag-theme-balham-dark</dt>
-    <dd>A dark variation of the balham theme, used in the enterprise examples in the documentation.</dd>
+    <dt>ag-theme-finance-dark</dt>
+    <dd>A dark variation of the finance theme, used in the enterprise examples in the documentation.</dd>
 
     <dt>ag-theme-material</dt>
     <dd>A theme designed according to the Google Material Language Specs.</dd>
@@ -73,19 +73,19 @@ include '../documentation-main/documentation_header.php';
     </p>
 
     <p>
-        The following is an example of using the balham theme:
+        The following is an example of using the finance theme:
     </p>
 
     <snippet language="html">
-     &lt;div id="myGrid" class="ag-theme-balham"&gt;&lt;/div&gt; 
+     &lt;div id="myGrid" class="ag-theme-finance"&gt;&lt;/div&gt; 
 </snippet>
 
     <p>
-        The following is an example of using the dark balham theme:
+        The following is an example of using the dark finance theme:
     </p>
 
     <snippet language="html">
-    &lt;div id="myGrid" class="ag-theme-balham-dark"&gt;&lt;/div&gt;
+    &lt;div id="myGrid" class="ag-theme-finance-dark"&gt;&lt;/div&gt;
 </snippet> 
 
     <h2>When to Create a Theme</h2>
@@ -95,7 +95,7 @@ include '../documentation-main/documentation_header.php';
     </p>
 
     <ol class="content">
-        <li>Use one of the provided themes e.g. <code>ag-theme-balham</code>.</li>
+        <li>Use one of the provided themes e.g. <code>ag-theme-finance</code>.</li>
         <li>Use one of the provided themes and tweak using the provided <a href="#customizing-sass-variables">Sass variables</a>.</li>
         <li>Create your own theme from scratch. This is the most complex approach and you are more
         exposed to breaking changes in ag-Grid releases.</li>
@@ -518,7 +518,7 @@ window.addEventListener("load", function() {
 <div class="tabpanel">
     <div class="tabheader">
     <div class="tab selected">Base Variables</div>
-        <div class="tab">Balham Theme</div>
+        <div class="tab">Finance Theme</div>
         <div class="tab">Material Theme</div>
     </div>
     <div class="content">
